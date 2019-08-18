@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* Css header*/
+#header {
+	margin-bottom: 10px;
+}
+.quangcao-header {
+	min-height: 20px;
+	background-color: #999;
+}
+.header-1 {
+	min-height: 90px;
+	/*background: #00ACFF;*/
+	background-color:#006;
+	
+}
+.header-1 #logo {
+	width: 150px;
+	height: 75px;
+	position: relative;
+	top: 13px;
+	left: 10px;
+	float: left;
+}
+.header-1 #form-search {
+	float: left;
+}
+#btnSearch {
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	height: 45px;
+	width: 100px;
+	background: #09F;
+	color: #FFF;
+	border: none;
+	display: inline-block;
+	margin-right: 70px;
+}
+#btnSearch:hover {
+	background-color: #0CF;
+	border: solid 2px #09F;
+	border-left:none;
+}
+.txtTimKiem {
+	position: relative;
+	top: 20px;
+	left: 50px;
+	height: 25px;
+	width: 320px;
+	border: solid 2px #0099FF;
+	padding: 8px 15px 8px;
+	float: left;
+	border-right:none;
+}
+.header-1 .icon, .header-2 .icon {
+	float: left;
+	width: 25px;
+	height: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.header-1 .box {
+	width: 120px;
+	float: left;
+	position: relative;
+	top: 30px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#nameKH{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.header-1 .arrow-top {
+	width: 0;
+	height: 0;
+	border: solid 20px;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #FFF;
+	float: left;
+	z-index: 1;
+	display: none;
+}
+.header-1 .sub-menu {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: -25px;
+	width: 150px;
+	z-index: 1;
+	background: #FFF;
+	min-height: 80px;
+	float: left;
+	box-shadow:1px 1px 1px #CCCCCC;
+}
+.header-1 .sub-menu a{
+		text-decoration:none;
+		color:#FFF;
+	}
+.header-1 .sub-menu li {
+	width: 180px;
+	border-radius: 10px;
+	background: #F60;
+	list-style: none;
+	line-height: 30px;
+	position: relative;
+	left: -35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #FFF;
+	text-align: center;
+}
+#hover-dangnhap:hover .sub-menu, #hover-dangnhap:hover .arrow-top, #da-dangnhap:hover .sub-menu, #da-dangnhap:hover .arrow-top {
+	display: block;
+}
+.header-2 {
+	min-height: 40px;
+	background: #006;
+}
+.header-2 .box {
+	position: relative;
+	top: 10px;
+	min-width: 230px;
+	float: left;
+	color: #FFF;
+
+}
+.header-2 img{
+	width:24px;
+	height:24px;
+	position:relative;
+	top:5px;
+	padding-right:5px;
+	padding-left:5px;
+}
+.header-2 a {
+	color: #FFF;
+	padding-left: 40px;
+	text-decoration: none;
+}
+#imgCart{
+	float:left;
+	margin-right:0;
+	padding-right:0;
+	}
+#imgCart a{
+	text-decoration: none;
+	color: white;
+}
+.header-1 .box#boxGioHang{
+	min-width:140px;
+	border:solid 1px #FFFFFF;
+	border-radius:5px;
+	padding:5px 0px;
+	position:relative;
+	top:25px;
+}
+#soLuongHang{
+	float:left;
+	border-radius:5px;
+	background-color:#FFF;
+	color:#009;
+	min-width:20px;
+	font-weight:bolder;
+	padding:1px 2px;
+	text-align:center;
+	margin-left:5px;
+}
+#soThongBao{
+	width: 20px;
+	height: 20px;
+	z-index: 20;
+	position: absolute;
+	left: 20px;
+	bottom: 25px;
+	background-color: white;
+	color: #0000FF;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+
+}
+#icon-tbao{
+	z-index: 2;
+}
